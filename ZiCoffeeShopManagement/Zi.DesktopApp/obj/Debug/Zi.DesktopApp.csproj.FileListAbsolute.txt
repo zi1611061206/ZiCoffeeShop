@@ -1,0 +1,11 @@
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.csproj.AssemblyReference.cache
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.GUI.formLogin.resources
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.Properties.Resources.resources
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.csproj.GenerateResource.cache
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\bin\Debug\Zi.DesktopApp.exe.config
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\bin\Debug\Zi.DesktopApp.exe
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\bin\Debug\Zi.DesktopApp.pdb
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.exe
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.pdb
