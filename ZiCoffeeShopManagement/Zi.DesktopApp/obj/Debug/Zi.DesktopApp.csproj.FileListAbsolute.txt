@@ -9,3 +9,4 @@ C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.Deskto
 C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\bin\Debug\Zi.DesktopApp.pdb
 C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.exe
 C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.pdb
+C:\Users\sotay\OneDrive\Máy tính\ZiCoffeeShop\ZiCoffeeShopManagement\Zi.DesktopApp\obj\Debug\Zi.DesktopApp.GUI.formBusiness.resources

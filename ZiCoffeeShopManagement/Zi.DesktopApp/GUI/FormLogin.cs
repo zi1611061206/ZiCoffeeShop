@@ -56,7 +56,7 @@ namespace Zi.DesktopApp.GUI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            FormBusiness formBusiness = new FormBusiness();
+            formBusiness formBusiness = new formBusiness();
             Hide();
             formBusiness.ShowDialog();
             Show();
