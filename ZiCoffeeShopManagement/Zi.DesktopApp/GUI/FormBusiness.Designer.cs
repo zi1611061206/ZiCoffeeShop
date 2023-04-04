@@ -34,10 +34,17 @@
             this.picMinimize = new System.Windows.Forms.PictureBox();
             this.picClose = new System.Windows.Forms.PictureBox();
             this.lbProgramName = new System.Windows.Forms.Label();
+            this.pnlFooter = new System.Windows.Forms.Panel();
+            this.lbCopyright = new System.Windows.Forms.Label();
+            this.lbTotalTable = new System.Windows.Forms.Label();
+            this.lbUsingTable = new System.Windows.Forms.Label();
+            this.lbReadyTable = new System.Windows.Forms.Label();
+            this.lbPendingTable = new System.Windows.Forms.Label();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picMaximize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimize)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).BeginInit();
+            this.pnlFooter.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -103,12 +110,89 @@
             this.lbProgramName.Text = "Zi CSM";
             this.lbProgramName.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pnlHeader_MouseDown);
             // 
+            // pnlFooter
+            // 
+            this.pnlFooter.Controls.Add(this.lbPendingTable);
+            this.pnlFooter.Controls.Add(this.lbReadyTable);
+            this.pnlFooter.Controls.Add(this.lbUsingTable);
+            this.pnlFooter.Controls.Add(this.lbTotalTable);
+            this.pnlFooter.Controls.Add(this.lbCopyright);
+            this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlFooter.Location = new System.Drawing.Point(0, 770);
+            this.pnlFooter.Name = "pnlFooter";
+            this.pnlFooter.Size = new System.Drawing.Size(1200, 30);
+            this.pnlFooter.TabIndex = 0;
+            // 
+            // lbCopyright
+            // 
+            this.lbCopyright.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbCopyright.AutoSize = true;
+            this.lbCopyright.Font = new System.Drawing.Font("Arial Narrow", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCopyright.Location = new System.Drawing.Point(1020, 2);
+            this.lbCopyright.Name = "lbCopyright";
+            this.lbCopyright.Size = new System.Drawing.Size(168, 20);
+            this.lbCopyright.TabIndex = 0;
+            this.lbCopyright.Text = "ZiTechDev Copyright © 2023";
+            this.lbCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbTotalTable
+            // 
+            this.lbTotalTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbTotalTable.AutoSize = true;
+            this.lbTotalTable.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbTotalTable.Location = new System.Drawing.Point(12, 4);
+            this.lbTotalTable.Name = "lbTotalTable";
+            this.lbTotalTable.Size = new System.Drawing.Size(108, 17);
+            this.lbTotalTable.TabIndex = 0;
+            this.lbTotalTable.Text = "Total Table: 100";
+            this.lbTotalTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbUsingTable
+            // 
+            this.lbUsingTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbUsingTable.AutoSize = true;
+            this.lbUsingTable.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbUsingTable.ForeColor = System.Drawing.Color.Red;
+            this.lbUsingTable.Location = new System.Drawing.Point(126, 4);
+            this.lbUsingTable.Name = "lbUsingTable";
+            this.lbUsingTable.Size = new System.Drawing.Size(115, 17);
+            this.lbUsingTable.TabIndex = 0;
+            this.lbUsingTable.Text = "Using Table: 100";
+            this.lbUsingTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbReadyTable
+            // 
+            this.lbReadyTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbReadyTable.AutoSize = true;
+            this.lbReadyTable.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbReadyTable.ForeColor = System.Drawing.Color.LightGreen;
+            this.lbReadyTable.Location = new System.Drawing.Point(247, 4);
+            this.lbReadyTable.Name = "lbReadyTable";
+            this.lbReadyTable.Size = new System.Drawing.Size(120, 17);
+            this.lbReadyTable.TabIndex = 0;
+            this.lbReadyTable.Text = "Ready Table: 100";
+            this.lbReadyTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbPendingTable
+            // 
+            this.lbPendingTable.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.lbPendingTable.AutoSize = true;
+            this.lbPendingTable.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPendingTable.ForeColor = System.Drawing.Color.Yellow;
+            this.lbPendingTable.Location = new System.Drawing.Point(373, 4);
+            this.lbPendingTable.Name = "lbPendingTable";
+            this.lbPendingTable.Size = new System.Drawing.Size(131, 17);
+            this.lbPendingTable.TabIndex = 0;
+            this.lbPendingTable.Text = "Pending Table: 100";
+            this.lbPendingTable.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // formBusiness
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(49)))), ((int)(((byte)(61)))));
             this.ClientSize = new System.Drawing.Size(1200, 800);
+            this.Controls.Add(this.pnlFooter);
             this.Controls.Add(this.pnlHeader);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
@@ -123,6 +207,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.picMaximize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picMinimize)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picClose)).EndInit();
+            this.pnlFooter.ResumeLayout(false);
+            this.pnlFooter.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -134,5 +220,11 @@
         private System.Windows.Forms.PictureBox picMinimize;
         private System.Windows.Forms.PictureBox picClose;
         private System.Windows.Forms.Label lbProgramName;
+        private System.Windows.Forms.Panel pnlFooter;
+        private System.Windows.Forms.Label lbCopyright;
+        private System.Windows.Forms.Label lbPendingTable;
+        private System.Windows.Forms.Label lbReadyTable;
+        private System.Windows.Forms.Label lbUsingTable;
+        private System.Windows.Forms.Label lbTotalTable;
     }
 }
