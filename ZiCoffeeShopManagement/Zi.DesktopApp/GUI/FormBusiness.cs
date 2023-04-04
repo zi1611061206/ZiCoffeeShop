@@ -13,6 +13,13 @@ namespace Zi.DesktopApp.GUI
 {
     public partial class formBusiness : Form
     {
+        #region Form Move (Keep and move form on screen)
+        [DllImport("user32.dll", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.dll", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
+        #endregion
+
         public formBusiness()
         {
             InitializeComponent();
@@ -36,6 +43,12 @@ namespace Zi.DesktopApp.GUI
         private void picClose_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void pnlHeader_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(Handle, 0x112, 0xf012, 0);
         }
     }
 }
