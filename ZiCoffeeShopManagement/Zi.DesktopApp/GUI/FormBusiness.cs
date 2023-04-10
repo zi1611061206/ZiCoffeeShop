@@ -50,5 +50,37 @@ namespace Zi.DesktopApp.GUI
             ReleaseCapture();
             SendMessage(Handle, 0x112, 0xf012, 0);
         }
+
+        private void picHide_Click(object sender, EventArgs e)
+        {
+            pnlAccountSideBar.Size = new Size(40, pnlAccountSideBar.Size.Height);
+            picShow.Show();
+            picHide.Hide();
+        }
+
+        private void picShow_Click(object sender, EventArgs e)
+        {
+            pnlAccountSideBar.Size = new Size(300, pnlAccountSideBar.Size.Height);
+            picShow.Hide();
+            picHide.Show();
+        }
+
+        private void btnChangePassword_Click(object sender, EventArgs e)
+        {
+            FormChangePassword formChangePassword = new FormChangePassword();
+            formChangePassword.Show();
+        }
+
+        private void btnOrder_Click(object sender, EventArgs e)
+        {
+            FormOrder formOrder = new FormOrder();
+            formOrder.Show();
+        }
+
+        private void btnPay_Click(object sender, EventArgs e)
+        {
+            FormCheckout formCheckout = new FormCheckout();
+            formCheckout.Show();
+        }
     }
 }
