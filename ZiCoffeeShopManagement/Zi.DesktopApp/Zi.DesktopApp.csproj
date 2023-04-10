@@ -52,14 +52,35 @@
     <Compile Include="GUI\FormBusiness.Designer.cs">
       <DependentUpon>FormBusiness.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\FormChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormChangePassword.Designer.cs">
+      <DependentUpon>FormChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\FormCheckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormCheckout.Designer.cs">
+      <DependentUpon>FormCheckout.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\FormLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\FormOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\FormOrder.Designer.cs">
+      <DependentUpon>FormOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\FormBusiness.resx">
+      <DependentUpon>FormBusiness.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI\FormLogin.resx">
       <DependentUpon>FormLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,11 +111,13 @@
   <ItemGroup>
     <Content Include="Assets\Icons\close.png" />
     <Content Include="Assets\Icons\closedEyes.png" />
+    <Content Include="Assets\Icons\leftArrow.png" />
     <Content Include="Assets\Icons\logo.png" />
     <Content Include="Assets\Icons\maximize.png" />
     <Content Include="Assets\Icons\minimize.png" />
     <Content Include="Assets\Icons\openedEyes.png" />
     <Content Include="Assets\Icons\password.png" />
+    <Content Include="Assets\Icons\rightArrow.png" />
     <Content Include="Assets\Icons\user.png" />
     <Content Include="Assets\Logo\logo.ico" />
   </ItemGroup>
